@@ -56,10 +56,10 @@ router.get('/', async (req, res) => {
 					let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
 					await delay(800);
 				   let b64data = Buffer.from(data).toString('base64');
-				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: 'SIGMA-MD;;;' + b64data });
+				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: 'LAZACK-BOT;;;' + b64data });
 	
 				   let SIGMA_MD_TEXT = `
-*_Qr Code By Maher Zubair_*
+*_Qr Code By Lazack-Bot_*
 *_Made With 🤍_*
 	
 _Don't Forget To Give Star To My Repo_`
