@@ -60,9 +60,10 @@ router.get('/', async (req, res) => {
 	
 				   let SIGMA_MD_TEXT = `
 *_Qr Code By Lazack-Bot_*
-*_Made With 🤍_*
+*_TANZANIA IS MY COUNTRY WELCOME TANZANIA_*
+*JOIN* - https://chat.whatsapp.com/CX3mGQf5zJt4iYyIC3Ato8
 	
-_Don't Forget To Give Star To My Repo_`
+_Don't share this session id and give a star my repo_`
 	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
 
 
