@@ -57,10 +57,13 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'LAZACK-BOT;;;' + b64data });
 
                let SIGMA_MD_TEXT = `
-*_Pair Code By Lazack-md_*
-*_Made With 🤍_*
-
-_Don't Forget To Give Star To My Repo_`
+━━━━━━━━━━━❀˖°❀˖°❀˖°┗━━━━━━━━━━━             
+||*_👌 hello guys this is youre session id_*
+||*_✅ you will need it to upload on all bots of lazack28_*
+||*_📡 currently working on Lazack-md_*
+||*_📌 join all of whatsapp group for our updates daily_*
+||   |❀˖|*group* : https://chat.whatsapp.com/ICNOZzsDH9E81j3RlqLx4w
+||*_Don't Forget To Give Star To My Repo_*`
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
 
