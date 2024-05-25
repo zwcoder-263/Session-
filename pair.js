@@ -38,7 +38,7 @@ router.get('/', async (req, res) => {
              if(!Pair_Code_By_Maher_Zubair.authState.creds.registered) {
                 await delay(1500);
                         num = num.replace(/[^0-9]/g,'');
-                            const code = await Pair_Code_By_Lazack.requestPairingCode(num)
+                            const code = await Pair_Code_By_Maher_Zubair.requestPairingCode(num)
                  if(!res.headersSent){
                  await res.send({code});
                      }
@@ -57,7 +57,7 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'LAZACK-BOT;;;' + b64data });
 
                let SIGMA_MD_TEXT = `
-*_Pair Code By Lazack-bot_*
+*_Pair Code By Lazack-md_*
 *_Made With 🤍_*
 
 _Don't Forget To Give Star To My Repo_`
